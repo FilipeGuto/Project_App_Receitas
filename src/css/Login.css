@@ -1,0 +1,38 @@
+.login-body {
+  align-items: center;
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  /* justify-content: start; */
+}
+
+.login-body img {
+  margin: 50px 0 15px;
+  width: 65%;
+}
+
+h1 {
+  color: rgb(80, 80, 80);
+  font-family: Lobster , cursive;
+  margin: 0 0 20px;
+}
+
+.form-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-main > :first-child {
+  margin: 10px 0;
+}
+
+.form-input {
+  width: 100%;
+}
+
+.form-main .form-button {
+  margin: 10px 0 0;
+  width: 100%;
+}

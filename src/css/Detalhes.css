@@ -1,0 +1,57 @@
+.divDetalhes {
+  font-size: 20px;
+}
+
+.divDetalhes .imgDetalhes {
+  height: 250px;
+
+  /* Referência do object-fit:
+  https://developer.mozilla.org/pt-BR/docs/Web/CSS/object-fit */
+  object-fit: fill;
+  width: 100%;
+}
+
+.recipeTitle {
+  display: flex;
+}
+
+.btnFav {
+  display: flex;
+  justify-content: center;
+}
+
+.divDetalhes .pInstruction {
+  background-color: rgb(165, 163, 163);
+  border-radius: 2%;
+  margin-left: 5px;
+}
+
+.ingredients {
+  align-self: flex-start;
+  background-color: rgb(187, 184, 184);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+.cardsRecomendations {
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  overflow-y: hidden;
+}
+
+.alc {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.video {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+}
+

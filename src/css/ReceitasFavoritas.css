@@ -1,0 +1,31 @@
+.divFav {
+  align-items: center;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  font-family: Lobster , sans-serif;
+  font-size: 20px;
+}
+
+.btnFilters {
+  background-color: #f58634;
+  border-radius: 10%;
+}
+
+.divFav .imgFav {
+  border-radius: 10%;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+
+  /* Referência do object-fit:
+  https://developer.mozilla.org/pt-BR/docs/Web/CSS/object-fit */
+  object-fit: fill;
+  width: 100%;
+}
+
+.horiTop {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}

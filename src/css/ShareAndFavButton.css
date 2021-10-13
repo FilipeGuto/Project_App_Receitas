@@ -1,0 +1,21 @@
+.share-fav-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.share-fav-container {
+  display: flex;
+}
+
+.share-fav-container button {
+  background-color: var(--main-bg-color);
+  border: none;
+  height: 40px;
+  margin: 0 7px;
+  width: 40px;
+}
+
+.share-fav-container button img {
+  height: 37px;
+  width: 37px;
+}

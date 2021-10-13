@@ -1,0 +1,16 @@
+.form-button {
+  background-color: var(--main-dourado-color);
+  border: 1px solid var(--main-dourado-color);
+  border-radius: 10px;
+  color: white;
+  font-family: Lobster , cursive;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  padding: 5px 0;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.form-button:disabled {
+  background-color: rgb(194, 194, 194);
+  border: 1px solid rgb(170, 170, 170);
+}

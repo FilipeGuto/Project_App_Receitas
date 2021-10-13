@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+
+  --main-laranja-color: #f58634;
+
+  --main-laranja-claro-color: #fbbd89;
+
+  --main-dourado-color: #997c30;
+
+  --main-bg-color: rgb(238, 223, 204);
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--main-bg-color) !important;
+}
+
+.main-content {
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column;
+  margin: 52px 0 50px;
+}
+
+.app-footer {
+  bottom: 0;
+  position: fixed;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 0 0;
+}
+
+.card-body-recipies {
+  align-items: center;
+  background: white;
+  border-radius: 50px 50px 6px 6px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  height: 145px;
+  margin: 80px 5px 10px;
+  width: 161px;
+}
+
+.card-body-recipies div {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.card-body-recipies img {
+  border: 3px solid white;
+  border-radius: 60px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+  height: 120px;
+  margin: -70px 0 0;
+  width: 120px;
+}
+
+.card-body-recipies h4 {
+  color: var(--main-dourado-color);
+  font-family: 'Lobster', cursive;
+  height: 80px;
+  letter-spacing: 1px;
+  margin: 5px;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.recipes-done-cards {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipes-done-card {
+  background: white;
+  border: 1px solid rgba(248, 237, 237, 1);
+  border-radius: 6px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  display: flex;
+  height: 143px;
+  margin: 5px 0;
+  width: 330px;
+}
+.recipes-done-card div {
+  padding: 5px;
+}
+
+.recipes-done-card h5 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.recipes-done-card h4 {
+  color: var(--main-dourado-color);
+  font-family: 'Lobster', cursive;
+  font-size: 1.5rem;
+  margin: 3px 0;
+}
+
+.recipes-done-card p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.recipes-done-card-img {
+  border-radius: 6px 0 0 6px;
+  height: 143px;
+  margin: 0 5px 0 0;
+  width: 165px;
+}
+
+.recipes-done-card .favorite-button {
+  background-color: white;
+  border: none;
+  height: 20px;
+  margin: 0 7px;
+  width: 20px;
+  position: relative;
+  top: 50px;
+  left: 83px;
+}
+
+.recipes-done-card button {
+  background-color: white;
+  border: none;
+  height: 20px;
+  margin: 0 7px;
+  width: 20px;
+  position: relative;
+  top: -65px;
+  left: 113px;
+}
+
+.recipes-done-card-share {
+  height: 17px;
+  margin: 2px;
+  width: 17px;
+}
+
+.recipes-done-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipes-done-tags span {
+  background: var(--main-bg-color);
+  border-radius: 12px;
+  font-size: 0.7rem;
+  margin: 3px;
+  padding: 2px 5px;
+}
+
+.alert-mensage {
+  background-color: rgba(30, 30, 30, 0.7);
+  bottom: 0;
+  color: rgb(200, 200, 200);
+  font-size: 1rem;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.loading-container {
+  /* margin: 30% 25px; */
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+}
+
+.loading-container h4 {
+  font-family: 'Lobster', cursive;
+  color: var(--main-dourado-color);
+  padding-bottom: 50px;
+}
+
+.loading-container img {
+  width: 70%;
+  padding: 0 20px 0 0;
+}
+
+.explore-form-button {
+  background-color: var(--main-dourado-color);
+  border: 1px solid var(--main-dourado-color);
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Lobster , cursive;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  padding: 20px 0;
+  width: 80%;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.explore-form-button:disabled {
+  background-color: rgb(194, 194, 194);
+  border: 1px solid rgb(170, 170, 170);
+}
+
+.explore-form-button img {
+  width: 38px;
+}
+
+.perfil-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perfil-section img {
+  border: 3px solid white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+  width: 50%;
+}
+
+.perfil-section h4 {
+  margin: 20px 0;
+}
+
+.perfil-section button {
+  margin: 8px 0;
+  width: 60%;
+}

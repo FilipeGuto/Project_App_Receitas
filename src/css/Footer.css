@@ -1,0 +1,13 @@
+.app-footer {
+  background-color: rgb(139, 90, 43);
+  box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
+}
+
+.app-footer button {
+  background-color: inherit;
+  border: none;
+}

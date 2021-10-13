@@ -1,0 +1,5 @@
+.form-input input {
+  border: 1px solid var(--main-dourado-color);
+  border-radius: 10px;
+  padding: 5px;
+}

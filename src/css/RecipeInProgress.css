@@ -1,0 +1,97 @@
+.recipe-in-progress-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-in-progress-main section {
+  margin: 6px;
+  padding: 0 10px;
+}
+
+.in-progress-header {
+  margin-bottom: 10px;
+}
+
+.in-progress-header img {
+  height: 250px;
+
+  /* Referência do object-fit:
+  https://developer.mozilla.org/pt-BR/docs/Web/CSS/object-fit */
+  object-fit: fill;
+  width: 100%;
+}
+
+.in-progress-title-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  color: var(--main-dourado-color);
+  font-family: Lobster , cursive;
+  margin-bottom: 5px;
+}
+
+.in-progress-title-section h5 {
+  font-style: italic;
+}
+
+.ingredients-section ul {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  color: rgb(80, 80, 80);
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 15px;
+}
+
+.ingredients-section ul label {
+  font-style: italic;
+}
+
+.ingredients-section ul label input {
+  height: 25px;
+  margin: 0 5px;
+  width: 25px;
+}
+
+.ingredients-section li {
+  font-size: 1.2rem;
+  margin-left: 15px;
+  padding: 2px 0;
+}
+
+.marked {
+  color: var(--main-dourado-color);
+  text-decoration: line-through;
+}
+
+.insrtuctions-section p {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  color: rgb(80, 80, 80);
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 15px;
+}
+
+.in-progress-finish-btn {
+  align-self: center;
+  background-color: rgb(194, 194, 194);
+  border: solid rgb(194, 194, 194);
+  border-radius: 30px;
+  color: white;
+  font-family: Lobster , cursive;
+  font-size: 25px;
+  margin: 0 15px 10px;
+  padding: 15px;
+  width: 90%;
+}
+
+.finished {
+  background-color: green;
+  border: solid green;
+}
